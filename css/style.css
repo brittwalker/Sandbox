@@ -14,8 +14,9 @@ h1 {
 }
 
 #canvas {
-  height: 50vw;
-  width: 100vw;
+  /*height: 100vw;
+  width: 100vw;*/
   overflow: hidden;
   position: relative;
+  margin-top: -5%;
 }
