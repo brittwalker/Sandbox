@@ -20,3 +20,8 @@ h1 {
   position: relative;
   margin-top: -5%;
 }
+
+#canvasbg {
+  width: 100vw;
+  height: 50vh;
+}

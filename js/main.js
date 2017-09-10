@@ -84,6 +84,14 @@ $('.navbar-collapse a').click(function(){
 
 /* below animation credit to: https://gist.github.com/mlpassos/3751754*/
 
+if ($(window).width() < 450) {
+  // $('div .first').addClass('canvasbg');
+  $('div .first').prepend('<img id="canvasbg" src="images/b.png" />')
+}
+else {
+
+
+
 var Nodes = {
 
   // Settings
@@ -337,7 +345,7 @@ var Nodes = {
   setTimeout( function() {
     Nodes.init();
 }, 10 );
-
+}
 
 
 //dgdhgd
