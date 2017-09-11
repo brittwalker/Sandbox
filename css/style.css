@@ -26,7 +26,9 @@ h1 {
   background-image: url("../images/bwbg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 100%;
+  width: 80%;
+  min-height: 90vh;
   min-width: 90vw;
   position: absolute;
   left: 30vw;
@@ -42,12 +44,12 @@ h1 {
   height: 50vh;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
   .bgimg {
     height: 100%;
-    width: 100%;
+    width: 110%;
     position: absolute;
-    left: 0vw;
+    left: -10vw;
     /*bottom: 0;*/
   }
 
