@@ -39,6 +39,7 @@ h1 {
     width: 100vw;
     position: absolute;
     left: 15vw;
+    bottom: 0;
   }
 }
 
